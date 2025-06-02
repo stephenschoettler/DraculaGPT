@@ -1,4 +1,4 @@
-# 🧛‍♂️ DraculaGPT – ChatGPT Dracula “Boss Edition” Theme
+# 🧛‍♂️ DraculaGPT – ChatGPT Dracula Theme
 
 A custom Stylus theme for ChatGPT that applies the classic Dracula color palette with clean contrast, sleek UI tweaks, and no bloat. Built for users who live in dark mode and want a cohesive, focused experience.
 
