@@ -1,0 +1,84 @@
+/* ==UserStyle==
+@name         DraculaGPT
+@version      1.0
+@description  Dracula‐palette makeover for ChatGPT: higher contrast, readable typography, and color-coded headings/formatting
+@match        *://chat.openai.com/*
+@match        *://chatgpt.com/*
+@license      MIT
+==/UserStyle== */
+
+/* ╭─────────────────────────────────────────╮
+   │            DraculaGPT v1.0              │
+   ╰─────────────────────────────────────────╯ */
+
+/* 1 ▸ global tokens (apply to BOTH themes) */
+:root,
+.dark {
+  /* base & surfaces */
+  --background-color:        #0e0d11;
+  --main-surface-background: #0e0d11 !important;
+  --main-surface-primary:    #0e0d11 !important;
+  --main-surface-secondary:  #1e1e28 !important;
+
+  /* sidebar */
+  --sidebar-surface-primary:   #1a1a23 !important;
+  --sidebar-surface-secondary: #1e1e28 !important;
+
+  /* chat bubbles + composer */
+  --message-surface:           #1a1a23 !important;
+  --composer-surface-primary:  #1a1a23 !important;
+  --composer-blue-bg:          #1a1a23 !important;
+  --composer-blue-hover:       #1e1e28 !important;
+
+  /* text & accents */
+  --text-primary:   #F8F8F2 !important;
+  --text-secondary: #6272A4 !important;
+  --border-light:   #44475A !important;
+
+  /* emphasis colours */
+  --strong-color: #F1FA8C;
+  --em-color:     #8BE9FD;
+
+  /* heading palette */
+  --h1-color: #BD93F9;
+  --h2-color: #50FA7B;
+  --h3-color: #FF5555;
+  --h4-color: #BD93F9;
+  --h5-color: #8BE9FD;
+  --h6-color: #FFB86C;
+}
+
+/* 2 ▸ body fallback */
+body {
+  background: var(--background-color) !important;
+}
+
+/* 3 ▸ composer pill (border + round-overrides) */
+div[data-testid="composer"] {
+  background: var(--composer-surface-primary) !important;
+  border: 1px solid var(--border-light) !important;
+  border-radius: 10px !important;
+}
+
+/* 4 ▸ emphasis */
+strong { color: var(--strong-color) !important; }
+em     { color: var(--em-color)     !important; }
+
+/* 5 ▸ headings & nested <strong>/<em> */
+h1, h1 strong, h1 em { color: var(--h1-color) !important; }
+h2, h2 strong, h2 em { color: var(--h2-color) !important; }
+h3, h3 strong, h3 em { color: var(--h3-color) !important; }
+h4, h4 strong, h4 em { color: var(--h4-color) !important; }
+h5, h5 strong, h5 em { color: var(--h5-color) !important; }
+h6, h6 strong, h6 em { color: var(--h6-color) !important; }
+
+/* ── Dracula “Boss Edition” – composer fix ── */
+.dark [data-testid="composer"] .ProseMirror,
+.dark [data-testid="composer"] textarea,
+.dark [data-testid="composer"] .bg-token-main-surface-primary {
+  background: transparent !important;
+}
+
+.dark [data-testid="composer"] {
+  border: 1px solid var(--border-light) !important;
+}
