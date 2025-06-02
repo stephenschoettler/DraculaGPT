@@ -1,11 +1,17 @@
 /* ==UserStyle==
-@name         DraculaGPT
-@version      1.0
-@description  Dracula‐palette makeover for ChatGPT: higher contrast, readable typography, and color-coded headings/formatting
-@match        *://chat.openai.com/*
-@match        *://chatgpt.com/*
-@license      MIT
+@name           DraculaGPT
+@namespace      github.com/stephenschoettler/draculagpt
+@version        1.0
+@description    Dracula-themed Stylus skin for ChatGPT with clean UI and subtle Dracula palette.
+@author         Stephen Schoettler
+@license        MIT
+@homepageURL    https://github.com/stephenschoettler/DraculaGPT
+@supportURL     https://github.com/stephenschoettler/DraculaGPT/issues
+@preprocessor   stylus
+
+@var checkbox composerOverride "Override Composer Styling" 1
 ==/UserStyle== */
+
 
 /* ╭─────────────────────────────────────────╮
    │            DraculaGPT v1.0              │
