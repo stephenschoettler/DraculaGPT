@@ -18,7 +18,6 @@ A custom Stylus theme for ChatGPT that applies the classic Dracula color palette
 Tested on:
 - ChatGPT Web UI (dark mode)
 - Chromium-based browsers (Brave, Chrome, Vivaldi)
-- Firefox
 
 ## 📄 License
 MIT – free to modify and share. Credit appreciated but not required.
