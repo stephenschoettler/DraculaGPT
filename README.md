@@ -22,15 +22,16 @@ Tested on:
 
 ## 📄 License
 MIT – free to modify and share. Credit appreciated but not required.
+
 ## 🖼 Markdown Styling Preview
 
 Here’s how the DraculaGPT theme renders rich markdown content in ChatGPT:
 
-### Example 1: Markdown Format Display
-![Markdown Format Display](markdown-demo-1.png)
+### Example 1: Home Page Clean UI
+![ChatGPT Dracula Homepage](markdown-demo-1.png)
 
-### Example 2: Rendered Markdown Styling
-![Rendered Markdown](markdown-demo-2.png)
+### Example 2: Markdown Format Display
+![Markdown Format Display](markdown-demo-2.png)
 
-### Example 3: Home Page Clean UI
-![ChatGPT Dracula Homepage](markdown-demo-3.png)
+### Example 3: Rendered Markdown Styling
+![Rendered Markdown](markdown-demo-3.png)
