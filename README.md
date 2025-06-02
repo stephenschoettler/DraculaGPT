@@ -11,7 +11,7 @@ A custom Stylus theme for ChatGPT that applies the classic Dracula color palette
 ## 🛠 Installation
 
 1. Install the [Stylus browser extension](https://add0n.com/stylus.html)
-2. [Click here to install the theme](https://raw.githubusercontent.com/stephenschoettler/DraculaGPT/main/dracula-chatgpt.usercss](https://github.com/stephenschoettler/DraculaGPT/blob/main/dracula-chatgpt.user.css)
+2. [Click here to install the theme](https://raw.githubusercontent.com/stephenschoettler/DraculaGPT/main/dracula-chatgpt.usercss)
 3. Enjoy your upgraded ChatGPT experience 🧃
 
 ## 🧩 Compatibility
