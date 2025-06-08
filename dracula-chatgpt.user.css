@@ -12,6 +12,7 @@
 @var checkbox composerOverride "Override Composer Styling" 1
 ==/UserStyle== */
 
+@-moz-document domain("chat.openai.com"), domain("chatgpt.com") {
 
 /* ╭─────────────────────────────────────────╮
    │            DraculaGPT v1.0              │
@@ -20,32 +21,21 @@
 /* 1 ▸ global tokens (apply to BOTH themes) */
 :root,
 .dark {
-  /* base & surfaces */
   --background-color:        #0e0d11;
   --main-surface-background: #0e0d11 !important;
   --main-surface-primary:    #0e0d11 !important;
   --main-surface-secondary:  #1e1e28 !important;
-
-  /* sidebar */
   --sidebar-surface-primary:   #1a1a23 !important;
   --sidebar-surface-secondary: #1e1e28 !important;
-
-  /* chat bubbles + composer */
   --message-surface:           #1a1a23 !important;
   --composer-surface-primary:  #1a1a23 !important;
   --composer-blue-bg:          #1a1a23 !important;
   --composer-blue-hover:       #1e1e28 !important;
-
-  /* text & accents */
   --text-primary:   #F8F8F2 !important;
   --text-secondary: #6272A4 !important;
   --border-light:   #44475A !important;
-
-  /* emphasis colours */
   --strong-color: #F1FA8C;
   --em-color:     #8BE9FD;
-
-  /* heading palette */
   --h1-color: #BD93F9;
   --h2-color: #50FA7B;
   --h3-color: #FF5555;
@@ -88,3 +78,5 @@ h6, h6 strong, h6 em { color: var(--h6-color) !important; }
 .dark [data-testid="composer"] {
   border: 1px solid var(--border-light) !important;
 }
+
+} /* ← closes the @-moz-document block */
